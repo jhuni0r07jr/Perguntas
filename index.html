@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Perguntas e Respostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="home-screen" class="screen">
+        <h1>Selecione uma das seguintes opções:</h1>
+        <div id="categories">
+            <button onclick="iniciarQuiz(0)">OPÇÃO 1</button>
+            <button onclick="iniciarQuiz(1)">OPÇÃO 2</button>
+            <button onclick="iniciarQuiz(2)">OPÇÃO 3</button>
+            <button onclick="iniciarQuiz(3)">OPÇÃO 4</button>
+            <button onclick="iniciarQuiz(4)">OPÇÃO 5</button>
+        </div>
+    </div>
+
+    <div id="quiz-screen" class="screen" style="display: none;">
+        <h1>Quiz</h1>
+        <div id="question-container">
+            <p id="pergunta"></p>
+            <div id="answers-container"></div>
+        </div>
+        <div id="feedback"></div>
+        <div id="next-button" style="display: none;">
+            <button onclick="proximaPergunta()">Próxima Pergunta</button>
+        </div>
+    </div>
+
+    <div id="result-screen" class="screen" style="display: none;">
+        <h1>Resultado</h1>
+        <p id="resultado"></p>
+        <button onclick="voltarHome()">Voltar à Tela Inicial</button>
+    </div>
+
+    <div id="confetes-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

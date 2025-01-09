@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    color: #000; /* Cor do texto */
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #cec5c5;  /* Cor de fundo */
+    background-repeat: no-repeat;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+    color: #000; /* Título com cor preta */
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Condensed', Helvetica, Arial, sans-serif;
+}
+
+button {
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: white; /* Cor do texto no botão continua branco */
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #c70a0a;
+    font-family: 'Helvetica Condensed', Helvetica, Arial, sans-serif;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+
+#confetes-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
