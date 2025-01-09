@@ -1,40 +1,53 @@
 body {
+    width: 100%;
     margin: 0;
-    color: #000; /* Cor do texto */
+    padding: 0;
+    color: #333; /* Cor do texto ajustada para um tom de cinza escuro */
     height: 100vh;
     display: flex;
     text-align: center;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    background-color: #cec5c5;  /* Cor de fundo */
+    background-color: #f4f4f4;
+    background: #353b3d;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    color: #000; /* Título com cor preta */
-    font-size: 24px;
-    margin-bottom: 20px;
-    font-family: 'Helvetica Condensed', Helvetica, Arial, sans-serif;
+    color: WHITE; /* Título em branco */
+    font-size: 32px; /* Aumentando o tamanho do título */
+    font-weight: 700; /* Maior espessura para dar ênfase */
+    margin-top: 50px; /* Deixa o título mais alto */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 button {
     border: none;
-    margin: 10px;
-    padding: 10px;
-    font-size: 16px;
-    color: white; /* Cor do texto no botão continua branco */
-    font-weight: 600;
+    margin: 15px;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white; /* Cor da fonte dos botões preta */
+    font-weight: 700;
     cursor: pointer;
-    border-radius: 5px;
-    background-color: #c70a0a;
-    font-family: 'Helvetica Condensed', Helvetica, Arial, sans-serif;
+    border-radius: 50px; /* Bordas arredondadas para um visual mais moderno */
+    background-color: white; /* Cor de fundo vermelha para os botões */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza transições */
+    font-family: 'Roboto', sans-serif;
+    background-color: #808080;
+    border-radius: 20px;
+    border-top: solid 1px black;
+    border-left: solid 1px black;
+    border-right: solid 5px black;
+    border-bottom: solid 5px black;
 }
 
 button:hover {
-    background-color: black;
-    color: red;
+    background-color: white; /* Cor de fundo mais escura no hover */
+    color: black; /* Texto branco ao passar o mouse */
+    transform: scale(1.15); /* Aumenta o tamanho do botão no hover */
 }
 
 #confetes-container {
@@ -45,4 +58,28 @@ button:hover {
     width: 100vw;
     height: 100vh;
     pointer-events: none;
+}
+
+#quiz-screen{
+    width: 100%;
+    margin-top: 20%;
+    font-size: 150%;
+    color:#f4f4f4;
+    font-weight: 500;
+}
+
+#next-button button{
+    width: 40%;
+    height: 25%;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: #343636;
+    border-top: solid 1px #ffdd00;
+    border-left: solid 1px #ffdd00;
+    border-right: solid 5px #ffdd00;
+    border-bottom: solid 5px #ffdd00;
 }

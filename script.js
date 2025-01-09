@@ -7,7 +7,7 @@ const categorias = [
         { pergunta: "Quantos modelos de motos temos atualmente ?", respostaCorreta: "25", respostas: ["10", "20", "15", "2", "7"] },
         { pergunta: "Quantas CC tem os modelos CG ?", respostaCorreta: "160", respostas: ["110", "120", "160", "300", "1.000"] },
         { pergunta: "Qual modelo de moto mais vendida hoje na Honda?", respostaCorreta: "CG", respostas: ["CRF 250F", "XRE 300", "PCX", "CG", "Biz"] },
-        { pergunta: "De qual Pais é a Honda ?", respostaCorreta: "Japão", respostas: ["Brasil", "India", "Alemanhã", "Japão", "China"] },
+        { pergunta: "De qual Pais é a Honda foi fundada ?", respostaCorreta: "Japão", respostas: ["Brasil", "India", "Alemanhã", "Japão", "China"] },
         { pergunta: "Em que ano que a Honda foi criada ?", respostaCorreta: "1948", respostas: ["1900", "1948", "1501", "1854", "1946"] }
     ],
     [
