@@ -24,7 +24,6 @@ const categorias = [
         { pergunta: "A Honda Africa Twin é um modelo:", respostaCorreta: "Adventure", respostas: ["Naked", "Touring", "Adventure", "Scooter"] },
         { pergunta: "A Honda Biz é uma moto voltada para:", respostaCorreta: "Uso urbano e fácil manuseio", respostas: ["Uso urbano e fácil manuseio", "Motocross", "Longas viagens", "Uso off-road"] }
     ],
-    
     [
         { pergunta: "Em que ano foi lançada a Honda CB 500X no Brasil?", respostaCorreta: "2015", respostas: ["2012", "2015", "2018", "2020"] },
         { pergunta: "A Honda XRE 300 é uma moto do tipo:", respostaCorreta: "Trail", respostas: ["Naked", "Scooter", "Trail", "Off-road"] },
@@ -32,7 +31,6 @@ const categorias = [
         { pergunta: "Qual é o motor da Honda CBR 1000RR Fireblade?", respostaCorreta: "1000 cc", respostas: ["1000 cc", "600 cc", "1500 cc", "1200 cc"] },
         { pergunta: "A Honda CB 1000R é uma moto do tipo:", respostaCorreta: "Naked", respostas: ["Touring", "Chopper", "Cruiser", "Naked"] }
     ],
-
     [
         { pergunta: "Qual é o nome da moto Honda mais indicada para quem começa a andar de moto?", respostaCorreta: "Honda CG 160", respostas: ["Honda CG 160", "Honda XRE 300", "Honda CB 500", "Honda CBR 600RR"] },
         { pergunta: "A Honda CRF 250R é uma moto voltada para qual tipo de modalidade?", respostaCorreta: "Moto de cross", respostas: ["Moto de rua", "Moto de cross", "Moto de cross", "Moto de estrada"] },
@@ -40,7 +38,6 @@ const categorias = [
         { pergunta: "Qual é o nome da linha de motos esportivas da Honda?", respostaCorreta: "CBR", respostas: ["CRF", "CB", "CBR", "XR"] },
         { pergunta: "Qual é o modelo de moto mais popular da Honda no Brasil?", respostaCorreta: "Honda CG 160", respostas: ["Honda CRF 250", "Honda CB 500", "Honda CBR 1000RR", "Honda CG 160"] }
     ],
-    
 ];
 
 // Função para embaralhar as perguntas de uma categoria
