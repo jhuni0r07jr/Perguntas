@@ -16,9 +16,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#home-screen{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#categories{
+    display: flex-basis;
+    
+}
+
 h1 {
     color: WHITE; /* Título em branco */
-    font-size: 32px; /* Aumentando o tamanho do título */
     font-weight: 700; /* Maior espessura para dar ênfase */
     margin-top: 50px; /* Deixa o título mais alto */
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -27,19 +37,18 @@ h1 {
 button {
     border: none;
     margin: 15px;
-    padding: 15px 30px;
     font-size: 18px;
     color: white; /* Cor da fonte dos botões preta */
-    font-weight: 700;
     cursor: pointer;
-    border-radius: 50px; /* Bordas arredondadas para um visual mais moderno */
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 15px; /* Bordas arredondadas para um visual mais moderno */
     background-color: white; /* Cor de fundo vermelha para os botões */
     transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza transições */
     font-family: 'Roboto', sans-serif;
     background-color: #808080;
-    border-radius: 20px;
-    border-top: solid 1px black;
-    border-left: solid 1px black;
+    border-top: solid 2px BLACK;
+    border-left: solid 2px BLACK;
     border-right: solid 5px black;
     border-bottom: solid 5px black;
 }
@@ -48,6 +57,10 @@ button:hover {
     background-color: white; /* Cor de fundo mais escura no hover */
     color: black; /* Texto branco ao passar o mouse */
     transform: scale(1.15); /* Aumenta o tamanho do botão no hover */
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-right: solid 4px black;
+    border-bottom: solid 5px black;
 }
 
 #confetes-container {
@@ -62,7 +75,7 @@ button:hover {
 
 #quiz-screen{
     width: 100%;
-    margin-top: 20%;
+    margin-top: 10%;
     font-size: 150%;
     color:#f4f4f4;
     font-weight: 500;
@@ -82,4 +95,9 @@ button:hover {
     border-left: solid 1px #ffdd00;
     border-right: solid 5px #ffdd00;
     border-bottom: solid 5px #ffdd00;
+}
+
+#resultado{
+    color: white;
+    font-weight: 600;
 }

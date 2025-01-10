@@ -11,13 +11,34 @@ const categorias = [
         { pergunta: "Em que ano que a Honda foi criada ?", respostaCorreta: "1948", respostas: ["1900", "1948", "1501", "1854", "1946"] }
     ],
     [
-        { pergunta: "Quem pintou a Mona Lisa?", respostaCorreta: "Leonardo da Vinci", respostas: ["Pablo Picasso", "Leonardo da Vinci", "Vincent van Gogh", "Claude Monet", "Dali"] },
-        { pergunta: "Qual o nome do maior planeta do sistema solar?", respostaCorreta: "Júpiter", respostas: ["Júpiter", "Saturno", "Urano", "Terra", "Marte"] },
-        { pergunta: "Em que ano o homem chegou à lua?", respostaCorreta: "1969", respostas: ["1965", "1969", "1972", "1980", "1990"] },
-        { pergunta: "Quem é conhecido como o 'Pai da Física'?", respostaCorreta: "Isaac Newton", respostas: ["Albert Einstein", "Isaac Newton", "Galileu Galilei", "Nikola Tesla", "Max Planck"] },
-        { pergunta: "Qual é o símbolo químico da água?", respostaCorreta: "H2O", respostas: ["H2O", "O2", "CO2", "CH4", "N2"] }
+        { pergunta: "Qual modelo da Honda é um clássico das motos de esportes de alta performance?", respostaCorreta: "Honda CBR 600RR", respostas: ["Honda CRF 450R", "Honda CBR 600RR", "Honda CB 1000R", "Honda CB 500X"] },
+        { pergunta: "A Honda Hornet 600 é considerada uma moto do tipo:", respostaCorreta: "Naked", respostas: ["Cruiser", "Naked", "Touring", "Sport-touring"] },
+        { pergunta: "Qual é a principal característica da Honda CBR 500R?", respostaCorreta: "Modelo de entrada para motos esportivas", respostas: ["Alta cilindrada", "Moto com suspensão de ar", "Capacete integrado", "Modelo de entrada para motos esportivas"] },
+        { pergunta: "A Honda CB 500F é uma moto do tipo:", respostaCorreta: "Naked", respostas: ["Naked", "Touring", "Cruiser", "Off-road"] },
+        { pergunta: "Qual é a cilindrada da Honda CRF 230F?", respostaCorreta: "230 cc", respostas: ["230 cc", "250 cc", "150 cc", "500 cc"] }
     ],
-    // Outras categorias podem ser adicionadas da mesma forma.
+    [
+        { pergunta: "Qual foi o primeiro modelo da Honda a utilizar o sistema de injeção eletrônica?", respostaCorreta: "Honda CG 150", respostas: ["Honda CG 150", "Honda XRE 300", "Honda CBR 1000RR", "Honda CB 500X", "Honda Biz"] },
+        { pergunta: "A Honda CRF 150F é ideal para qual tipo de terreno?", respostaCorreta: "Off-road", respostas: ["Praia", "Asfalto", "Neve", "Off-road"] },
+        { pergunta: "O que significa a sigla CB nas motos Honda?", respostaCorreta: "City Bike", respostas: ["Chopper Bike", "Cross Bike", "City Bike", "Café Racer Bike"] },
+        { pergunta: "A Honda Africa Twin é um modelo:", respostaCorreta: "Adventure", respostas: ["Naked", "Touring", "Adventure", "Scooter"] },
+        { pergunta: "A Honda Biz é uma moto voltada para:", respostaCorreta: "Uso urbano e fácil manuseio", respostas: ["Uso urbano e fácil manuseio", "Motocross", "Longas viagens", "Uso off-road"] }
+    ],
+    [
+        { pergunta: "Em que ano foi lançada a Honda CB 500X no Brasil?", respostaCorreta: "2015", respostas: ["2012", "2015", "2018", "2020"] },
+        { pergunta: "A Honda XRE 300 é uma moto do tipo:", respostaCorreta: "Trail", respostas: ["Naked", "Scooter", "Trail", "Off-road"] },
+        { pergunta: "Qual modelo da Honda é voltado para o uso no motocross?", respostaCorreta: "Honda CRF 450R", respostas: ["Honda XR 250", "Honda CB 500X", "Honda CRF 450R", "Honda CB 1000R"] },
+        { pergunta: "Qual é o motor da Honda CBR 1000RR Fireblade?", respostaCorreta: "1000 cc", respostas: ["1000 cc", "600 cc", "1500 cc", "1200 cc"] },
+        { pergunta: "A Honda CB 1000R é uma moto do tipo:", respostaCorreta: "Naked", respostas: ["Touring", "Chopper", "Cruiser", "Naked"] }
+    ],
+    [
+        { pergunta: "Qual é o nome da moto Honda mais indicada para quem começa a andar de moto?", respostaCorreta: "Honda CG 160", respostas: ["Honda CG 160", "Honda XRE 300", "Honda CB 500", "Honda CBR 600RR"] },
+        { pergunta: "A Honda CRF 250R é uma moto voltada para qual tipo de modalidade?", respostaCorreta: "Moto de cross", respostas: ["Moto de rua", "Moto de cross", "Moto de cross", "Moto de estrada"] },
+        { pergunta: "Em qual ano a Honda lançou a primeira moto CG no Brasil?", respostaCorreta: "1971", respostas: ["1976", "1971", "1990", "1982"] },
+        { pergunta: "Qual é o nome da linha de motos esportivas da Honda?", respostaCorreta: "CBR", respostas: ["CRF", "CB", "CBR", "XR"] },
+        { pergunta: "Qual é o modelo de moto mais popular da Honda no Brasil?", respostaCorreta: "Honda CG 160", respostas: ["Honda CRF 250", "Honda CB 500", "Honda CBR 1000RR", "Honda CG 160"] }
+    ],
+    
 ];
 
 // Função para embaralhar as perguntas de uma categoria
